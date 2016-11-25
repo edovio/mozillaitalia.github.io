@@ -1,45 +1,110 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="it">
   <head>
-    <title>Mozilla Italia Links</title>
-    <meta content="uft-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Mozilla Italia Links" />
-    <meta property="og:description" content="I nostri riferimenti social e molto altro!" />
-    <meta property="og:url" content="http://mozillaitalia.github.io" />
-    <meta property="og:site_name" content="Mozilla Italia" />
-    <meta property="og:image" content="http://mozillaitalia.github.io/assets/mozilla-italia.png" />
-    <meta property="og:locale" content="it_IT" />
-    <meta name="twitter:site" content="@mozillaitalia" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mozilla Italia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation-flex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/mozilla-italia.css">
   </head>
   <body>
-  <div class="center">
-    <div class="imageblock">
-        <img src="assets/img/mozilla-italia.png" alt="Mozilla Italia Logo">
-        <img src="assets/img/header_nome.png" class="nome" alt="Associazione italiana supporto e traduzione mozilla">
+    <ul class="menu align-center">
+        <li><a href="#box1">Community</a></li>
+        <li><a href="#box2">Social</a></li>
+        <li><a href="#box3">Firefox Club</a></li>
+        <li><a href="#box4">Apps</a></li>
+        <li><a href="#">Contatti</a></li>
+    </ul>
+
+    <div class="mozilla-image">
+      <div class="row align-middle" style="height: 100vh;">
+        <div class="columns text-center">
+          <img src="img/mozilla-italia.png" alt="Mozilla Italia Logo"><br>
+          <img style="margin-top: 2vh;" src="img/mozilla-italia-text.png" alt="Mozilla Italia Logo Text">
+        </div>
+      </div>
     </div>
-    <h1>Scopri la nostra community!</h1>
-    <a href="http://www.mozillaitalia.org/" class="btn btn-green">Il sito</a>
-    <a href="http://forum.mozillaitalia.org/" class="btn btn-green">Il forum</a>
-    <a href="https://www.facebook.com/mozillaitalia" class="btn btn-green">Pagina Facebook</a>
-    <a href="https://twitter.com/mozillaitalia" class="btn btn-green">Account Twitter</a>
-    <a href="events.html" class="btn btn-red">Events</a>
-    <h1>Altri account social</h1>
-    <a href="https://www.facebook.com/firefoxosit" class="btn btn-green">Firefox OS Italia su Facebook</a>
-    <a href="https://twitter.com/firefoxosit" class="btn btn-green">Firefox OS Italia su Twitter</a>
-    <a href="https://www.facebook.com/MozillaItaly" class="btn btn-green">Mozilla Italy su Facebook</a>
-    <a href="https://twitter.com/mozillapr_it" class="btn btn-green">Mozilla Press Italia su Twitter</a>
-    <h1>Firefox Club in Italia</h1>
-    <a href="http://firefoxmilano.altervista.org/" class="btn btn-green">Firefox Club Milano</a>
-    <h1>App in Italiano o di Italiani per Firefox (os/Android)</h1>
-    <a href="apps.html" class="btn btn-green">Lista</a>
-    <h1>Lascia un tuo feedback (anonimo) per l'evento!</h1>
-    <a href="https://docs.google.com/forms/d/1kqvl2sfp1ZvAj0Zdy9PAI71CBHZsAtlcBf85zr9cWwY/viewform" class="btn btn-green">Compila il modulo</a>
+
+  <div id="box1" class="row collapse">
+    <div class="small-12 large-expand columns text-center box1">
+      <i class="fa fa-address-book fa-5x" aria-hidden="true"></i>
+      <h2>Scopri la nostra community!!</h2>
+      <div class="row align-center">
+        <div class="small-10 medium-6  columns">
+          <ul class="no-bullet text-left fa-ul box1-sublist">
+            <li><i class="fa fa-lg fa-li fa-firefox" aria-hidden="true"></i> Il sito web</li>
+            <li><i class="fa fa-lg fa-li fa-tasks" aria-hidden="true"></i> Il forum</li>
+            <li><i class="fa fa-lg fa-li fa-facebook-square" aria-hidden="true"></i> Pagina Facebook</li>
+            <li><i class="fa fa-lg fa-li fa-twitter-square" aria-hidden="true"></i> Account Twitter</li>
+            <li><i class="fa fa-lg fa-li fa-calendar" aria-hidden="true"></i> Eventi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="box2"  class="small-12 large-expand columns text-center box2">
+      <i class="fa fa-share-square fa-5x" aria-hidden="true"></i>
+      <h2>Altri account social</h2>
+      <div class="row align-center">
+        <div class="small-12 medium-8  columns">
+          <ul class="no-bullet text-left fa-ul box2-sublist">
+            <li><i class="fa fa-lg fa-li fa-facebook-square" aria-hidden="true"></i> Mozilla Italy su Facebook</li>
+            <li><i class="fa fa-lg fa-li fa-twitter-square" aria-hidden="true"></i> Mozilla Press Italia su Twitter</li>
+            <li><i class="fa fa-lg fa-li fa-facebook-square" aria-hidden="true"></i> Firefox OS su Facebook</li>
+            <li><i class="fa fa-lg fa-li fa-twitter-square" aria-hidden="true"></i> Firefox OS su Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-  <footer></footer>
-  </body>
+
+  <div id="box3"  class="row collapse">
+    <div class="small-12 large-expand columns text-center box3">
+      <i class="fa fa-address-book fa-5x" aria-hidden="true"></i>
+      <h2>Scopri la nostra community!</h2>
+      <div class="row align-center">
+        <div class="small-10 medium-6  columns">
+          <ul class="no-bullet text-left fa-ul box3-sublist">
+            <li><i class="fa fa-lg fa-li fa-firefox" aria-hidden="true"></i> Il sito web</li>
+            <li><i class="fa fa-lg fa-li fa-tasks" aria-hidden="true"></i> Il forum</li>
+            <li><i class="fa fa-lg fa-li fa-facebook-square" aria-hidden="true"></i> Pagina Facebook</li>
+            <li><i class="fa fa-lg fa-li fa-twitter-square" aria-hidden="true"></i> Account Twitter</li>
+            <li><i class="fa fa-lg fa-li fa-calendar" aria-hidden="true"></i> Eventi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="box4"  class="small-12 large-expand columns text-center box4">
+      <i class="fa fa-share-square fa-5x" aria-hidden="true"></i>
+      <h2>Altri account social</h2>
+      <div class="row align-center">
+        <div class="small-12 medium-8  columns">
+          <ul class="no-bullet text-left fa-ul box4-sublist">
+            <li><i class="fa fa-lg fa-li fa-facebook-square" aria-hidden="true"></i> Mozilla Italy su Facebook</li>
+            <li><i class="fa fa-lg fa-li fa-twitter-square" aria-hidden="true"></i> Mozilla Press Italia su Twitter</li>
+            <li><i class="fa fa-lg fa-li fa-facebook-square" aria-hidden="true"></i> Firefox OS su Facebook</li>
+            <li><i class="fa fa-lg fa-li fa-twitter-square" aria-hidden="true"></i> Firefox OS su Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center collapse footer">
+    <div class="small-12 columns">
+      <p>Website created with <i class="fa fa-heart-o" aria-hidden="true"></i> from Mozilla Italy Community</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
 </html>

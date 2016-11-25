@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+}
+
+.menu {
+  background-color: #d93a33;
+  min-height: 50px;
+}
+
+.menu a {
+  font-family: 'Fira Sans Light', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu li {
+  border-right: 1px solid #fff;
+  padding: 0 1rem 0 1rem;
+}
+
+.menu li:last-of-type {
+  border-right: none;
+}
+
+.menu li > a {
+  line-height: 0;
+}
+
+.mozilla-image {
+  background-image: url(../img/moz.png);
+  background-position: bottom center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.row.collapse {
+  margin: 0;
+  max-width: none;
+}
+
+.box1 {
+  background-color: white;
+  padding-top: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.box1 i.fa {
+  color: #d93a33;
+}
+
+.box1 h2 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.box1 ul {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.box1-sublist li {
+  margin: 0 0 10px 0;
+}
+
+.box2 {
+  background-color: #d93a33;
+  padding-top: 3rem;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.box2 i.fa {
+  color: #fff;
+}
+
+.box2 h2 {
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.box2 ul {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.box2-sublist li {
+  margin: 0 0 10px 0;
+}
+
+.box3 {
+  background-color: #002147;
+  padding-top: 3rem;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.box3 i.fa {
+  color: #fff;
+}
+
+.box3 h2 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.box3 ul {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.box3-sublist li {
+  margin: 0 0 10px 0;
+}
+
+.box4 {
+  background-color: #d4dde4;
+  padding-top: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.box4 i.fa {
+  color: #000;
+}
+
+.box4 h2 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.box4 ul {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.box4-sublist li {
+  margin: 0 0 10px 0;
+}
+
+.footer {
+  background-color: rgb(228, 108, 51);
+}
+
+.footer p {
+  margin-top: 1rem;
+  color: #fff;
+  font-family: 'Fira Sans Light', sans-serif;
+}
