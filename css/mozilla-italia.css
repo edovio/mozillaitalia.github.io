@@ -154,6 +154,50 @@ body {
   margin: 0 0 10px 0;
 }
 
+.calendar {
+  padding-top: 2rem;
+}
+
+.calendar-sub {
+  border-right: 3px solid #d93a33;
+}
+
+.calendar-text {
+  text-align: justify;
+  font-family: 'Fira Sans Light', sans-serif;
+}
+
+.calendar-text h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.event-date {
+  font-family: 'Fira Sans Light', sans-serif;
+  color: #fff;
+  background-color: #d93a33;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 1.5rem 0;
+  height: 9rem;
+}
+
+.event-day {
+  font-size: 3rem;
+}
+
+.event-month {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: inline-block;;
+}
+
+.event-year {
+  font-size: 1rem;
+}
+
 .footer {
   background-color: rgb(228, 108, 51);
 }
