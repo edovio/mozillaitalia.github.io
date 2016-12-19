@@ -1,11 +1,3 @@
-// var asd = $.ajax({
-//   url: reps_endpoint,
-//   dataType: "jsonp",
-//   success: function(data) {
-//     console.log(data);
-//   }
-// });
-
 $(function() {
   function encodeData(data) {
     return Object.keys(data).map(function(key) {
