@@ -189,13 +189,21 @@ body {
 }
 
 .event-month {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-bottom: 5px;
   display: inline-block;;
 }
 
 .event-year {
   font-size: 1rem;
+}
+
+.event-extra-info {
+  color: #d93a33;
+}
+
+.calendar-text h3 > a {
+  color: #000;
 }
 
 .footer {
